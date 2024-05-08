@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Random Ideas for Kids</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Activity Ideas</h1>
+        <img src="src/ladybug.png" alt="cute-ladybug" id="ladybug">
+        
+        <form>
+          <div class="checkbox-group">
+            <input type="checkbox" id="indoorCheckbox">
+            <label for="indoorCheckbox">Indoor Activities</label>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="outdoorCheckbox">
+            <label for="outdoorCheckbox">Outdoor Activities</label>
+          </div>
+          <button id="generate-btn">Generate</button>
+        </form>
+        
+        <div id="activity" aria-live="polite"></div>
+      </div>
+      
+      <script src="index.js"></script>
+</body>
+</html>
