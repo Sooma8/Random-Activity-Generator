@@ -24,7 +24,9 @@ const indoorArr = [
   "Write a poem",
   "Change your usaual hairstyle",
   "Paint with coffee",
-  "Tidy up you closet"
+  "Tidy up you closet",
+  "Listen to new music",
+
 
 ]
 

@@ -35,12 +35,12 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-family: Dino, sans-serif;
-    background-color: #87c971;
+    background-color: #d78fbd;
 }
 
 #ladybug{
   margin: 1em auto;
-  width: 220px;
+  width: 180px;
 }
 
 .container{
@@ -49,11 +49,11 @@ body {
   align-items: center;
   margin: 1.5em auto;
   padding: 1em 1em;
-  background-color: #ffded5;
+  background-color: #e5ecff;
   border: none;
   box-shadow: 0 4px 8px 0 rgba(83, 107, 81, 0.2), 0 6px 20px 0 rgba(87, 142, 97, 0.19);
   border-radius: 1rem;
-  max-width: fit-content;
+  max-width: 350px;
   height: 600px;
 }
 
@@ -64,21 +64,21 @@ button{
   border-radius: 10px;
   font-size: 1em;
   color: white;
-  background-color: #6DB850;
+  background-color: #cc85b2;
   padding: 1em 2em;
   
 }
 button:hover{
-  background-color: #579a3c;
+  background-color: #a0668b;
   
 }
 h1{
-  color: #6DB850;
-  text-shadow: 1px 1px 1px #579a3c;
+  color: #a0668b;
+  /*text-shadow: 1px 1px 1px #579a3c;*/
 }
 label{
-  color: #FFCC6B;
-  text-shadow: 1px px 1px #c79d4f;
+  color: #52AFA6;
+  
   font-size: 1.20em;
 }
 #activity{
