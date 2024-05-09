@@ -38,7 +38,7 @@ body {
     background-color: #d78fbd;
 }
 
-#ladybug{
+#chiling{
   margin: 1em auto;
   width: 180px;
 }
@@ -47,9 +47,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1.5em auto;
+  margin: .5em auto;
   padding: 1em 1em;
-  background-color: #e5ecff;
+  background-color: #ffffff;
   border: none;
   box-shadow: 0 4px 8px 0 rgba(83, 107, 81, 0.2), 0 6px 20px 0 rgba(87, 142, 97, 0.19);
   border-radius: 1rem;
@@ -73,6 +73,7 @@ button:hover{
   
 }
 h1{
+  font-size: 1.5em;
   color: #a0668b;
   /*text-shadow: 1px 1px 1px #579a3c;*/
 }
